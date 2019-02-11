@@ -1,5 +1,5 @@
 - name: Update and upgrade apt packages
-  become: true
+  hosts: all
   apt:
     upgrade: yes
     update_cache: yes
